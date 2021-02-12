@@ -13,7 +13,7 @@ Tämä Big Design Up-Front (BDUF) -käytäntö sisältää myös ohjelmiston ark
 
 Ketterät menetelmät ei sen sijaan usein kerro juurikaan mitään arkkitehtuurista. Esimerkiksi Scrumiin ei ole määritelty, kuinka arkkitehtuurisuunnittelu tulisi toteuttaa. Extreme programmingissa arkkitehtuurin rakentumista määrittelee ainoastaan järjestelmämetafora (system metaphor).
 
-Ketterän ohjelmistokehityksen periaatteet ovat periaatteen tasolla epäsuhdassa arkkitehtuurisuunnittelun kanssa. Ketterän manifestin mukaan esimerkiksi muutokseen reagoimista pidetään tärkeämpänä kuin tarkkojen suunnitelmien noudattamista. Halutaan minimoida kaikki turha työ, jota saattaa syntyä, jos arkkitehtuuriin tullaan tekemään muutoksia myöhemmässä vaiheessa. Asiakkaalle arvoa tuottavien ohjelmiston nopea tuottaminen nähdään tärkempänä asiana kuin tarkka suunnittelu ja dokumentaatio. Ketterässä kehityksessä ihanteena on, että päätökset pyritään tekemään mahdollisimman myöhäisessä vaiheessa.
+Ketterän ohjelmistokehityksen periaatteet ovat jokseenkin epäsuhdassa arkkitehtuuriperustaisen ohjelmistosuunnittelun kanssa. Ketterän manifestin mukaan esimerkiksi muutokseen reagoimista pidetään tärkeämpänä kuin tarkkojen suunnitelmien noudattamista. Halutaan minimoida kaikki turha työ, jota saattaa syntyä, jos arkkitehtuuriin tullaan tekemään muutoksia myöhemmässä vaiheessa. Asiakkaalle arvoa tuottavien ohjelmiston nopea tuottaminen nähdään tärkempänä asiana kuin tarkka suunnittelu ja dokumentaatio. Ketterässä kehityksessä ihanteena on, että päätökset pyritään tekemään mahdollisimman myöhäisessä vaiheessa.
 
 Abrahamsson et al. artikkelissa Agility and architecture: Can they coexist? (2010) mukaan suurin arkkitehtuurin muodostamisen vastakkainasettelu näyttää olevan kettärelle kehitykselle ominaisen sopeutumisen ja perinteisen suunnittelulle ominaisen ennakoinnin välillä. Ketterän kannattajat saattavat pitävää arkkitehtuuria asiana menneisyydestä, johon ei pidä panostaa ja joka rakentuu muun toiminnan yhteydessä iteraatio iteraatiolta refaktorointia hyödyntäen. Toisaalta perinteisen vesiputousmallisen ohjelmistokehityksen kannattajat ovat saattaneet nähdä ketterät menetelmät hieman amatöörimäisenä touhuna, joka soveltuu hyvin vain tiettyihin sovellutuksiin. Artikkelin ja esimerkiksi saman aihepiirin kirjan Agile Software Architecture (Babar et al, 2013) kantavana teemana on tälläisen vastakkainasettelun häivyttäminen - ketteryys ja arkkitehtuuri voivat elää yhteiseloa ja jopa tukea toisiansa erilaisissa konteksteissa.
 
@@ -26,10 +26,11 @@ Yang et al. tutkimus A systematic mapping study on the combination of software a
 Iteratiivinen arkkitehtuuri (Emergent Architecture) sulauttaa arkkitehtuurisuunnittelun osaksi ketterän tuotannon iteraatoita ja arkkitehtuurisuunnittelua tehdään vain tarpeellinen määrä kyseisen iteraation tavoitteiden, eli käytännössä uusien käyttäjätoiminnallisuuksien toteuttamiseksi. Tässä mallissa arkkitehtuuri rakentuu refaktoroinnin kautta eli se kehittyy koodin mukana eikä sitä olla määritelty etukäteen. 
 
 Abrahamsson et al. artikkelissa todetaan, että suunnittelu tulisi tehdä mahdollisimman aikaisin, sillä se kattaa merkittäviä päätöksiä järjestelmän rakenteesta ja käyttäytymisestä. Näitä
-päätöksiä on vaikea kumota tai muuttaa myöhemmässä vaiheessa. Esimerkiksi nollaiteraatiossa (Iteration Zero) on tarkoitus siirtää osa arkkitehtuurisuunnittelua tapahtuvaksi ennen varsinaista tuotantovaihetta olevaan iteraatioon sekä parantaa arkkitehtuuria tulevissa iteraatioissa. Tässä vaiheessa voidaan tehdä ns. walking skeleton, eli eräänlainen prototyyppi arkkitehtuurista, joka mahdollistaa jonkin toiminnallisuuden julkaisemisen.
+päätöksiä on vaikea kumota tai muuttaa myöhemmässä vaiheessa. Esimerkiksi nollaiteraatiossa (Iteration Zero) on tarkoitus siirtää osa arkkitehtuurisuunnittelua tapahtuvaksi ennen varsinaista tuotantovaihetta olevaan iteraatioon sekä parantaa arkkitehtuuria tulevissa iteraatioissa. Tässä vaiheessa voidaan tehdä ns. walking skeleton, eli eräänlainen prototyyppi arkkitehtuurista, jonka tarkoitus on rakentua järjestelmän kasvaessa.
 
-Scrumiin on ollut ennen dokumentoituna ns. pregame-vaihe, jossa korkean tason arkkitehtuuri on määritelty, mutta se on poistettu myöhemmistä Scrumin kuvauksesta. Ketterässä kehityksessä muutoksen pitäisikin olla jopa tavoiteltavissa oleva asia, joten etukäteen tehtävää arkkitehtuurin suunnittelua ei pitäisi periaatteessa esiintyä. Babar et al. (2013) scrumia käsittelävän kappaleen mukaan käytännössä Scrum-ohjelmistokehityksessä kuitenkin hyödynnetään nollasprinttejä ja jopa BDUF-henkistä suunnittelua sekä erillisten arkkitehtuuritiimien käyttöä.
+Scrumiin on ollut ennen dokumentoituna ns. pregame-vaihe, jossa korkean tason arkkitehtuuri on määritelty, mutta se on poistettu myöhemmistä Scrumin kuvauksesta. Ketterässä kehityksessä muutoksen pitäisikin olla jopa tavoiteltavissa oleva asia, joten etukäteen tehtävää arkkitehtuurin suunnittelua ei pitäisi periaatteessa esiintyä. Babar et al. (2013) Scrumia käsittelävän kappaleen mukaan käytännössä Scrum-ohjelmistokehityksessä kuitenkin hyödynnetään nollasprinttejä ja jopa BDUF-henkistä suunnittelua sekä erillisten arkkitehtuuritiimien käyttöä.
 
+Ketterän manifestin mukaan parhaat arkkitehtuurit syntyvät itsenäisten kehitystiimien toimesta. Tämä lisää arkkitehtuuriin sitoutumista ja helpottaa dokumentaatioita ...
 
 # Lähteet
 
@@ -39,6 +40,9 @@ Artikkeli:
 Kirja:
 [Babar, M. A., Brown, A. W., & Mistrík, I. (Eds.). (2013). Agile Software Architecture: Aligning Agile Processes and Software Architectures. Newnes.](https://helsinki.primo.exlibrisgroup.com/permalink/358UOH_INST/qn0n39/cdi_skillsoft_books24x7_bks00056508
 )
+
+Agile manifesto:
+[Beck, K., Beedle, M., van Bennekum, A., Cockburn, A., Cunningham, W., Fowler, M., Grenning, J., Highsmith, J., Hunt, A., Jeffries, R., Kern, J., Marick, B., Martin, R. C., Mellor, S., Schwaber, K., Sutherland, J. & Thomas, D. (2001). Manifesto for Agile Software Development Manifesto for Agile Software Development.](https://agilemanifesto.org/)
 
 IEEE-standardi:
 [Jen, L. R., & Lee, Y. J. (2000). Working Group. IEEE recommended practice for architectural description of software-intensive systems. In IEEE Architecture.](https://ieeexplore.ieee.org/document/875998)
