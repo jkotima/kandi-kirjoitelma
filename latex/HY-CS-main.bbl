@@ -1,0 +1,252 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{abrahamsson2010agility}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f000e44112e23fdafed23380b5583b19}{%
+           family={Abrahamsson},
+           familyi={A\bibinitperiod},
+           given={Pekka},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d4d4fe4b84580d022e3c19b9f8421af5}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3c217c4da64b178dcf918cfb6ec4625f}
+      \strng{fullhash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \strng{bibnamehash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \strng{authorbibnamehash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \strng{authornamehash}{3c217c4da64b178dcf918cfb6ec4625f}
+      \strng{authorfullhash}{91f4bcbb5fb805beab2851dde0d575ae}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Software}
+      \field{number}{2}
+      \field{title}{Agility and architecture: Can they coexist?}
+      \field{volume}{27}
+      \field{year}{2010}
+      \field{pages}{16\bibrangedash 22}
+      \range{pages}{7}
+    \endentry
+    \entry{babar2013agile}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d4d4fe4b84580d022e3c19b9f8421af5}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5c7d8fa7c8404e8c8ed3e0283206d5cc}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Alan\bibnamedelima W},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9503800d433c08b835ad99665f7808eb}{%
+           family={Mistr{ı́}k},
+           familyi={M\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Newnes}%
+      }
+      \strng{namehash}{20955c5bc6d858f68049a04dcdc5ee9d}
+      \strng{fullhash}{fb1a25a3d3644950b09ab89b2869cb84}
+      \strng{bibnamehash}{fb1a25a3d3644950b09ab89b2869cb84}
+      \strng{authorbibnamehash}{fb1a25a3d3644950b09ab89b2869cb84}
+      \strng{authornamehash}{20955c5bc6d858f68049a04dcdc5ee9d}
+      \strng{authorfullhash}{fb1a25a3d3644950b09ab89b2869cb84}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agile Software Architecture: Aligning Agile Processes and Software Architectures}
+      \field{year}{2013}
+    \endentry
+    \entry{fowler2001agile}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=312ac886938a9b2be4f8eb607567fe4c}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bae406ad0a87e2f65be045fff38c80ad}{%
+           family={Highsmith},
+           familyi={H\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[San Francisco, CA: Miller Freeman, Inc., 1993-}%
+      }
+      \strng{namehash}{cbbfd7cdcc23227474ffe75899a45a6d}
+      \strng{fullhash}{cbbfd7cdcc23227474ffe75899a45a6d}
+      \strng{bibnamehash}{cbbfd7cdcc23227474ffe75899a45a6d}
+      \strng{authorbibnamehash}{cbbfd7cdcc23227474ffe75899a45a6d}
+      \strng{authornamehash}{cbbfd7cdcc23227474ffe75899a45a6d}
+      \strng{authorfullhash}{cbbfd7cdcc23227474ffe75899a45a6d}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Software Development}
+      \field{number}{8}
+      \field{title}{The agile manifesto}
+      \field{volume}{9}
+      \field{year}{2001}
+      \field{pages}{28\bibrangedash 35}
+      \range{pages}{8}
+    \endentry
+    \entry{jen2000working}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=18a29ec873fb5af93aba3f62e887f6f1}{%
+           family={Jen},
+           familyi={J\bibinitperiod},
+           given={Lih\bibnamedelima Ren},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d66ec39fa47026596d709ee0aa96f78f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yuh\bibnamedelima Jye},
+           giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{aa077e003bd1dbafe0ba9be2bef97fee}
+      \strng{fullhash}{aa077e003bd1dbafe0ba9be2bef97fee}
+      \strng{bibnamehash}{aa077e003bd1dbafe0ba9be2bef97fee}
+      \strng{authorbibnamehash}{aa077e003bd1dbafe0ba9be2bef97fee}
+      \strng{authornamehash}{aa077e003bd1dbafe0ba9be2bef97fee}
+      \strng{authorfullhash}{aa077e003bd1dbafe0ba9be2bef97fee}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Architecture}
+      \field{title}{Working Group. IEEE recommended practice for architectural description of software-intensive systems}
+      \field{year}{2000}
+    \endentry
+    \entry{kruchten2004rational}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{bibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorbibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authornamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorfullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The rational unified process: an introduction}
+      \field{year}{2004}
+    \endentry
+    \entry{yang2016systematic}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=7c12c6bb81a430b19d464d25687cbb9c}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=41658c7f1126a9a84da600b357c5ceb5}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c526947bff4f91d727e5b4dd9e8003d3}{%
+           family={Avgeriou},
+           familyi={A\bibinitperiod},
+           given={Paris},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f0e6fa83ef3d64b68ce08b6659be6103}
+      \strng{fullhash}{7795d8fd7209fe0d4548ba704a817a60}
+      \strng{bibnamehash}{7795d8fd7209fe0d4548ba704a817a60}
+      \strng{authorbibnamehash}{7795d8fd7209fe0d4548ba704a817a60}
+      \strng{authornamehash}{f0e6fa83ef3d64b68ce08b6659be6103}
+      \strng{authorfullhash}{7795d8fd7209fe0d4548ba704a817a60}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{title}{A systematic mapping study on the combination of software architecture and agile development}
+      \field{volume}{111}
+      \field{year}{2016}
+      \field{pages}{157\bibrangedash 184}
+      \range{pages}{28}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
